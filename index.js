@@ -6,9 +6,9 @@ const PORT = process.env.PORT || 3000;
 
 // Configurable identity (set these in your hosting provider's env vars)
 const FULL_NAME = (process.env.FULL_NAME || "anant kapoor").toLowerCase().replace(/\s+/g, "_");
-const DOB_DDMMYYYY = process.env.DOB_DDMMYYYY || "01012000"; // e.g., 17091999
-const EMAIL = process.env.EMAIL || "anant@example.com";
-const ROLL_NUMBER = process.env.ROLL_NUMBER || "VIT12345";
+const DOB_DDMMYYYY = process.env.DOB_DDMMYYYY || "13072005"; // e.g., 17091999
+const EMAIL = process.env.EMAIL || "anant.kapooor@gmail.com";
+const ROLL_NUMBER = process.env.ROLL_NUMBER || "22BCB7111";
 
 app.use(cors());
 app.use(express.json());
