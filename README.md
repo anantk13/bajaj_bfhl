@@ -22,7 +22,7 @@ npm install
 npm start
 ```
 
-Server starts at `http://localhost:3000`.
+Server starts at `https://bajaj-bfhl-tsfi.onrender.com/bfhl`.
 
 ### Example request
 
