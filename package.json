@@ -1,0 +1,24 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "BFHL challenge REST API: POST /bfhl that parses input array and returns categorized data.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "bfhl",
+    "vit",
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
