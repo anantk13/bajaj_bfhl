@@ -54,8 +54,6 @@ Content-Type: application/json
 
 ## Environment variables
 
-Set these in your hosting provider for correct identity values:
-
 - `FULL_NAME` – your full name (e.g., `anant kapoor` → becomes `anant_kapoor` automatically)
 - `DOB_DDMMYYYY` – your DOB as `ddmmyyyy` (e.g., `17091999`)
 - `EMAIL` – your email ID
@@ -63,13 +61,7 @@ Set these in your hosting provider for correct identity values:
 
 ## Deploy
 
-You can deploy on **Render**, **Railway**, or **Vercel**.
-
-### Vercel (Serverless function alternative)
-
-If you prefer Vercel serverless (no Express server), create a file `api/bfhl.js` in a new Vercel project and paste the handler from `index.js` refactored to a single exported function. Make sure your endpoint is `/api/bfhl`. If your form requires `/bfhl`, set up a redirect in `vercel.json` to map `/bfhl` → `/api/bfhl`.
-
-### Render/Railway (Node server)
+### Render (Node server)
 
 1. Create a new **Web Service** from this repository.
 2. Set build/run commands automatically from `package.json` (or `npm start`).
